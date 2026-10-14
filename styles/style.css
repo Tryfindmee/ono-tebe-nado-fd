@@ -9,7 +9,7 @@ body {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 92px 24px;
+  padding: 92px 50px;
 }
 
 .header__menu {
@@ -54,12 +54,12 @@ body {
   height: auto;
 }
 
-/* header Footer заметка */
+/* header Footer */
 .address {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  max-width: 240px;
+  max-width: 264px;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
@@ -125,7 +125,6 @@ body {
 .aligned-text_left {
   align-self: flex-start;
   text-align: left;
-  padding: 50px;
 }
 
 .aligned-text_center {
@@ -139,7 +138,7 @@ body {
 }
 
 .letter-spacing-extended {
-  letter-spacing: 30px;
+  letter-spacing: 0.3em;
 }
 
 .no-letter-spacing {
@@ -163,16 +162,16 @@ body {
 
 .bet-button {
   flex-shrink: 0;
-  width: 200px;
-  height: 40px;
+  width: 256px;
+  height: 51px;
   padding: 0;
   border: 1px solid #fff;
   background-color: transparent;
   color: #fff;
   font-family: "Raleway", sans-serif;
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 500;
-  line-height: 38px;
+  line-height: 100%;
   text-align: center;
   text-transform: uppercase;
   cursor: pointer;
@@ -180,7 +179,7 @@ body {
 
 /* LOTS */
 .lots {
-  padding: 179px 24px 0;
+  padding: 100px 24px 0;
 }
 
 .lots__heading {
@@ -193,7 +192,6 @@ body {
 
 .lots__card-list {
   display: flex;
-  flex-wrap: wrap;
   gap: 25px;
   padding: 0;
   margin: 0;
@@ -202,7 +200,7 @@ body {
 
 .lots__card-list-item {
   flex: 1;
-  min-height: 563px;
+  min-height: 596px;
 }
 
 .card-link {
@@ -216,9 +214,8 @@ body {
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   height: 100%;
-  padding: 30px 40px 48px;
+  padding: 30px 40px;
   color: #fff;
   background-size: cover;
   background-position: center;
@@ -246,6 +243,7 @@ body {
 }
 
 .card__title {
+  margin: 0 0 30px;
   font-size: 22px;
   font-weight: 700;
   line-height: 120%;
@@ -265,23 +263,23 @@ body {
   color: #000;
   font-size: 20px;
   font-weight: 400;
-  line-height: 23.48px;
+  line-height: 100%;
   text-underline-offset: 3px;
 }
 
-/*ABOUT */
+/* ABOUT */
 .about {
   display: grid;
-  grid-template-columns: 334px 1fr;
-  gap: 25px;
-  margin-top: 148px;
+  grid-template-columns: 240px 1fr;
+  gap: 95px;
+  margin-top: 100px;
   padding: 34px 24px 0;
   align-items: start;
 }
 
 .about__column {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
 }
 
 .about__logo {
@@ -290,7 +288,6 @@ body {
   align-items: center;
   width: 240px;
   height: 240px;
-  margin: 0 auto;
   background-color: #000;
   border-radius: 50%;
 }
@@ -304,14 +301,14 @@ body {
   margin: 0 0 24px;
   font-size: 40px;
   font-weight: 700;
-  line-height: 46.96px;
+  line-height: 100%;
   text-transform: uppercase;
 }
 
 .about__text {
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 30px;
   font-family: "Raleway", sans-serif;
   font-size: 20px;
   font-weight: 400;
@@ -322,12 +319,12 @@ body {
   margin: 0;
 }
 
-/*FOOTER*/
+/* FOOTER */
 .footer {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: start;
-  padding: 180px 50px 88px;
+  padding: 100px 50px 88px;
 }
 
 .footer__address {
@@ -347,8 +344,8 @@ body {
 
 .footer__menu-list-item {
   font-size: 18px;
-  line-height: 24.3px;
-  letter-spacing: 0.18px;
+  line-height: 24px;
+  letter-spacing: 1px;
   text-underline-offset: 3px;
 }
 
@@ -362,7 +359,7 @@ body {
 
 .footer__social-list {
   display: flex;
-  gap: 24px;
+  gap: 48px;
   justify-self: end;
   padding: 0;
   margin: 0;
