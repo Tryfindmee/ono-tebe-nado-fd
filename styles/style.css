@@ -18,10 +18,10 @@ body {
 
 .header__links-list {
   display: flex;
-  gap: 32px;
+  gap: 20px;
   padding: 0;
   margin: 0;
-  list-style: circle;
+  list-style: none;
 }
 
 .header__links-list-item {
@@ -125,6 +125,7 @@ body {
 .aligned-text_left {
   align-self: flex-start;
   text-align: left;
+  padding: 50px;
 }
 
 .aligned-text_center {
@@ -157,21 +158,21 @@ body {
   font-size: 22px;
   font-weight: 400;
   line-height: 28px;
-  word-spacing: 18px;
+  word-spacing: 8px;
 }
 
 .bet-button {
   flex-shrink: 0;
-  width: 256px;
-  height: 51px;
+  width: 200px;
+  height: 40px;
   padding: 0;
   border: 1px solid #fff;
   background-color: transparent;
   color: #fff;
   font-family: "Raleway", sans-serif;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 500;
-  line-height: 49px;
+  line-height: 38px;
   text-align: center;
   text-transform: uppercase;
   cursor: pointer;
@@ -200,7 +201,7 @@ body {
 }
 
 .lots__card-list-item {
-  width: 334px;
+  flex: 1;
   min-height: 563px;
 }
 
@@ -217,7 +218,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
-  padding: 51px 40px 48px;
+  padding: 30px 40px 48px;
   color: #fff;
   background-size: cover;
   background-position: center;
@@ -275,6 +276,7 @@ body {
   gap: 25px;
   margin-top: 148px;
   padding: 34px 24px 0;
+  align-items: start;
 }
 
 .about__column {
@@ -299,7 +301,7 @@ body {
 }
 
 .about__title {
-  margin: 100px 0 24px;
+  margin: 0 0 24px;
   font-size: 40px;
   font-weight: 700;
   line-height: 46.96px;
@@ -360,7 +362,7 @@ body {
 
 .footer__social-list {
   display: flex;
-  gap: 48px;
+  gap: 24px;
   justify-self: end;
   padding: 0;
   margin: 0;
